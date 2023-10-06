@@ -1,0 +1,393 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "POBS/1.0.0": {
+        "dependencies": {
+          "Eto.Platform.Wpf": "2.7.1",
+          "Extended.Wpf.Toolkit": "3.6.0",
+          "POCU.Tools.Apps.BreadboardSimulator": "1.0.4",
+          "POCU.EtoUtils.Reference": "1.0.0.0",
+          "POCU.Tools.Apps.BreadboardSimulator.Reference": "1.0.4.0",
+          "POCU.Tools.Apps.CircuitSim.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "POBS.dll": {}
+        }
+      },
+      "Eto.Forms/2.7.1": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Eto.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.8253.40696"
+          }
+        }
+      },
+      "Eto.Platform.Wpf/2.7.1": {
+        "dependencies": {
+          "Eto.Forms": "2.7.1",
+          "Extended.Wpf.Toolkit": "3.6.0",
+          "Microsoft-WindowsAPICodePack-Shell": "1.1.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Eto.Wpf.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.8253.40696"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/3.6.0": {
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          },
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "JsonSubTypes/2.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JsonSubTypes.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "NLog/4.7.14": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.14.740"
+          }
+        }
+      },
+      "NUnit.Console/3.7.0": {
+        "dependencies": {
+          "NUnit.ConsoleRunner": "3.7.0",
+          "NUnit.Extension.NUnitProjectLoader": "3.6.0",
+          "NUnit.Extension.NUnitV2Driver": "3.7.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.6.0",
+          "NUnit.Extension.TeamCityEventListener": "1.0.2",
+          "NUnit.Extension.VSProjectLoader": "3.6.0"
+        }
+      },
+      "NUnit.ConsoleRunner/3.7.0": {},
+      "NUnit.Extension.NUnitProjectLoader/3.6.0": {},
+      "NUnit.Extension.NUnitV2Driver/3.7.0": {},
+      "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {},
+      "NUnit.Extension.TeamCityEventListener/1.0.2": {},
+      "NUnit.Extension.VSProjectLoader/3.6.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Data.DataSetExtensions/4.5.0": {},
+      "POCU.EtoUtils/1.0.0": {
+        "dependencies": {
+          "Eto.Forms": "2.7.1"
+        },
+        "runtime": {
+          "POCU.EtoUtils.dll": {}
+        }
+      },
+      "POCU.Tools.Apps.BreadboardSimulator/1.0.4": {
+        "dependencies": {
+          "Eto.Forms": "2.7.1",
+          "JsonSubTypes": "2.0.1",
+          "Newtonsoft.Json": "13.0.1",
+          "POCU.EtoUtils": "1.0.0",
+          "POCU.Tools.Apps.CircuitSim": "1.0.0"
+        },
+        "runtime": {
+          "POCU.Tools.Apps.BreadboardSimulator.dll": {}
+        },
+        "resources": {
+          "ko/POCU.Tools.Apps.BreadboardSimulator.resources.dll": {
+            "locale": "ko"
+          }
+        }
+      },
+      "POCU.Tools.Apps.CircuitSim/1.0.0": {
+        "dependencies": {
+          "Processor": "1.0.0",
+          "SpiceSharp": "3.1.5"
+        },
+        "runtime": {
+          "POCU.Tools.Apps.CircuitSim.dll": {}
+        }
+      },
+      "Processor/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "NLog": "4.7.14",
+          "NUnit.Console": "3.7.0",
+          "NUnit.Extension.NUnitProjectLoader": "3.6.0",
+          "NUnit.Extension.NUnitV2Driver": "3.7.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.6.0",
+          "NUnit.Extension.VSProjectLoader": "3.6.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "Processor.dll": {}
+        }
+      },
+      "SpiceSharp/3.1.5": {
+        "runtime": {
+          "SpiceSharp.dll": {}
+        }
+      },
+      "POCU.EtoUtils.Reference/1.0.0.0": {
+        "runtime": {
+          "POCU.EtoUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "POCU.Tools.Apps.BreadboardSimulator.Reference/1.0.4.0": {
+        "runtime": {
+          "POCU.Tools.Apps.BreadboardSimulator.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        },
+        "resources": {
+          "ko/POCU.Tools.Apps.BreadboardSimulator.resources.dll": {
+            "locale": "ko"
+          }
+        }
+      },
+      "POCU.Tools.Apps.CircuitSim.Reference/1.0.0.0": {
+        "runtime": {
+          "POCU.Tools.Apps.CircuitSim.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POBS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eto.Forms/2.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6y0fSojK1tJSH88dXNKDstT7IS4SP9boHQbNbCkzyWAYavBTsgYGSYEV6nukJTPpKrj/GB1Goh1G3upTbljbBA==",
+      "path": "eto.forms/2.7.1",
+      "hashPath": "eto.forms.2.7.1.nupkg.sha512"
+    },
+    "Eto.Platform.Wpf/2.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cedvzNpbxhk7jRanSvm9FsFnhk2oGFPO02yyFZFiQALPUOpMN0474j+WeABp/QfmioeKHjn6YPGHnmeUnBE8ow==",
+      "path": "eto.platform.wpf/2.7.1",
+      "hashPath": "eto.platform.wpf.2.7.1.nupkg.sha512"
+    },
+    "Extended.Wpf.Toolkit/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-flfPS2rtbCCXJv7m43MXBJWaPN0RsVRQn3MZO2VmMjs4pOHzL7WnsaSXbs0OHTLj71SA/+T4hdZC8f4FhvJSkA==",
+      "path": "extended.wpf.toolkit/3.6.0",
+      "hashPath": "extended.wpf.toolkit.3.6.0.nupkg.sha512"
+    },
+    "JsonSubTypes/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Po+Ypf0SjCeEKx5+C89Nb5OgTcqNvfS3uTI46MUM+KEp6Rq/M0h+vVsTUt/6DFRwZMTpsAJM4yJrZmEObVANA==",
+      "path": "jsonsubtypes/2.0.1",
+      "hashPath": "jsonsubtypes.2.0.1.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsEStalyKPTR5/HKyAHYvIoDZTGUTUgIBS1eeGvkjWgDYB7f5aSBFAAJfxhhDsOGDjLs6O0uzw1H0EWYWZGDmg==",
+      "path": "microsoft-windowsapicodepack-core/1.1.4",
+      "hashPath": "microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EtoEx9Fx3ZGW//sni9TB1vuBvzXIlyG8E2KNaX7bqV240aiU8RP+NmDHd1ox0YKbJDMxq7AWSI2jPhpLMYXKyw==",
+      "path": "microsoft-windowsapicodepack-shell/1.1.4",
+      "hashPath": "microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "NLog/4.7.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R1Nn+Zi2mSiKf82zII+8ZhGTr66CmCDLlpDq/0N0Y22TDrioYeP6t3XWzJVTi3OXaHJ/jiXId/okXQu8e0g3uw==",
+      "path": "nlog/4.7.14",
+      "hashPath": "nlog.4.7.14.nupkg.sha512"
+    },
+    "NUnit.Console/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SRigP1GEq40W6umx+fykPZbX9xCsFd9bDh+N2OslmtD4f4RrHEy9O4St4foO2R1gK1GLagBzTCiSA6Km4GD+Fg==",
+      "path": "nunit.console/3.7.0",
+      "hashPath": "nunit.console.3.7.0.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7K9dbmg+t0AM1/vDNy3chuU+ctUa2ApnoWeLFhu2ELjXEpSAv/Vfn0frBPGwWOd1TyKcPfMJ89rMtX+RNqzvnQ==",
+      "path": "nunit.consolerunner/3.7.0",
+      "hashPath": "nunit.consolerunner.3.7.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ev2+dCJShMNIATkYNm/vHEuieBfbismr9DcUfBvafJZf5vNyugXPuMXO/MaOFcJaoW9j6/zjMmXKG7R5umWzXA==",
+      "path": "nunit.extension.nunitprojectloader/3.6.0",
+      "hashPath": "nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2Driver/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vzeISBXjBdGX3Jpg4qpa6jtT8y8aq6fFDVeIb42BcKY8XGv5d+S39Zl7eiqoQSHxdFGrW8L8B/v75hfCeejdHA==",
+      "path": "nunit.extension.nunitv2driver/3.7.0",
+      "hashPath": "nunit.extension.nunitv2driver.3.7.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/Nc+wgFRe3dT59/VjhiIT0SWfLMbb/Vc9AtBU3L71VOCs8zQnuNjCOEFLQL/Mq6XSaZeB2Sug9tUgTfCnQk9w==",
+      "path": "nunit.extension.nunitv2resultwriter/3.6.0",
+      "hashPath": "nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.TeamCityEventListener/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWtqluuxC1VizTdD/GcdppF1AJGa0sGIGwRKpo8cuAC9Hcw5X4znraTLyVc62Wqj/+C9VwTZ4FI88GZHexYPNg==",
+      "path": "nunit.extension.teamcityeventlistener/1.0.2",
+      "hashPath": "nunit.extension.teamcityeventlistener.1.0.2.nupkg.sha512"
+    },
+    "NUnit.Extension.VSProjectLoader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+qINfaW1D7nZZF6/Y+puY0HBebH+mcksH25Z6LpTpdhwFQJiWWe2RAgCXXqYxGxICLHlLziIaGRKbLlXdHJVEg==",
+      "path": "nunit.extension.vsprojectloader/3.6.0",
+      "hashPath": "nunit.extension.vsprojectloader.3.6.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "POCU.EtoUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POCU.Tools.Apps.BreadboardSimulator/1.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POCU.Tools.Apps.CircuitSim/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Processor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpiceSharp/3.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POCU.EtoUtils.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POCU.Tools.Apps.BreadboardSimulator.Reference/1.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POCU.Tools.Apps.CircuitSim.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
