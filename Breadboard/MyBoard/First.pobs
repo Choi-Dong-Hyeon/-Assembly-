@@ -1,0 +1,113 @@
+{
+  "Design": {
+    "Components": [
+      {
+        "$type": "WBU202R",
+        "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7"
+      },
+      {
+        "$type": "PowerSource5V",
+        "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a"
+      },
+      {
+        "$type": "WDC65C02",
+        "ID": "459c2cdf-4359-4b2f-ab4d-2a59d2605554"
+      },
+      {
+        "$type": "AT28C256",
+        "ID": "d956fe77-9ca3-4e24-b0ad-a5fd11650e87"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42"
+      }
+    ],
+    "Connections": [
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:60"
+        },
+        "B": {
+          "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a",
+          "AttachmentPoint": "+"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P01:60"
+        },
+        "B": {
+          "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a",
+          "AttachmentPoint": "-"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T03:03"
+        },
+        "B": {
+          "ID": "459c2cdf-4359-4b2f-ab4d-2a59d2605554",
+          "AttachmentPoint": "40"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T03:33"
+        },
+        "B": {
+          "ID": "d956fe77-9ca3-4e24-b0ad-a5fd11650e87",
+          "AttachmentPoint": "28"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:03"
+        },
+        "B": {
+          "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:03"
+        },
+        "B": {
+          "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:22"
+        },
+        "B": {
+          "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P01:22"
+        },
+        "B": {
+          "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42",
+          "AttachmentPoint": "1"
+        }
+      }
+    ]
+  },
+  "Version": 1
+}
