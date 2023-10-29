@@ -6,34 +6,128 @@
         "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7"
       },
       {
+        "$type": "WBU202R",
+        "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9"
+      },
+      {
         "$type": "PowerSource5V",
-        "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a"
+        "ID": "0bf482be-034d-4e7f-91f3-c29c951c1177"
       },
       {
         "$type": "WDC65C02",
-        "ID": "459c2cdf-4359-4b2f-ab4d-2a59d2605554"
+        "ID": "8cee0248-0a40-4958-9201-154f67f881d9"
       },
       {
-        "$type": "AT28C256",
-        "ID": "d956fe77-9ca3-4e24-b0ad-a5fd11650e87"
+        "$type": "OSC1",
+        "ID": "3f1297ab-d616-4e8f-80c0-1d852d0abeb9"
+      },
+      {
+        "$type": "UT187181M1R",
+        "ID": "d2fabc96-9146-442a-96dc-8702fd14e234"
       },
       {
         "$type": "RedWire",
-        "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29"
+        "ID": "12f398ff-51c7-47d3-95be-0fa9f95a14fe"
       },
       {
         "$type": "BlackWire",
-        "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42"
+        "ID": "010ce4d0-b932-4ab1-9471-44b25d49cb59"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "2301486a-b5bd-46f3-b43c-a311c84044a1"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "4a601338-5842-493b-a2b4-79c94982e67e"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "87f76438-fd2c-4263-b415-b8c9a524d4f3"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "79d77a44-85d8-4a92-9d0c-6c6cde1c16a5"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "8923c658-71e5-4970-8142-0457ec8bdba0"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "636d49ad-fc91-43b2-80c1-8933f39a7971"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "5b6f30b4-fb37-4141-a649-6763848b19df"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "15e0679d-a4b8-4692-afc8-566e2f22f3d8"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "a55d7052-d9ed-4c06-9190-193862e48256"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "d723d3f9-3ee5-49c7-b2e9-e261e01c2e9e"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "b7dd5618-a410-4d5f-9e76-c83490501f77"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "d6cf6a8e-60a2-47e0-9f60-ebc31d523b65"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "ab9bb920-30fc-402c-8604-850ea16507eb"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "2e62f032-4639-4c39-a307-b51846cc8866"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "b2a7e832-fa81-4b5b-90f5-5d26b391a246"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "55c35ebf-7da1-461f-a149-dae0f060a4dd"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "5663ee89-a7ad-431b-8d34-aa14a4ab9d36"
+      },
+      {
+        "$type": "RedWire",
+        "ID": "83dfbd01-6e4d-440a-a8b2-ab109ed2fec9"
+      },
+      {
+        "$type": "BlackWire",
+        "ID": "f7cf7eab-fda5-482d-8ae1-2b6321c99f96"
       }
     ],
     "Connections": [
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "B02"
+        },
+        "B": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "B00"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
           "AttachmentPoint": "P00:60"
         },
         "B": {
-          "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a",
+          "ID": "0bf482be-034d-4e7f-91f3-c29c951c1177",
           "AttachmentPoint": "+"
         }
       },
@@ -43,67 +137,467 @@
           "AttachmentPoint": "P01:60"
         },
         "B": {
-          "ID": "3f21d7e7-4f50-41f9-bd83-6587374a034a",
+          "ID": "0bf482be-034d-4e7f-91f3-c29c951c1177",
           "AttachmentPoint": "-"
         }
       },
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "T03:03"
+          "AttachmentPoint": "T03:09"
         },
         "B": {
-          "ID": "459c2cdf-4359-4b2f-ab4d-2a59d2605554",
+          "ID": "8cee0248-0a40-4958-9201-154f67f881d9",
           "AttachmentPoint": "40"
         }
       },
       {
         "A": {
-          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "T03:33"
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "T04:05"
         },
         "B": {
-          "ID": "d956fe77-9ca3-4e24-b0ad-a5fd11650e87",
-          "AttachmentPoint": "28"
+          "ID": "3f1297ab-d616-4e8f-80c0-1d852d0abeb9",
+          "AttachmentPoint": "4"
         }
       },
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "T00:03"
+          "AttachmentPoint": "T01:57"
         },
         "B": {
-          "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29",
-          "AttachmentPoint": "0"
+          "ID": "d2fabc96-9146-442a-96dc-8702fd14e234",
+          "AttachmentPoint": "+"
         }
       },
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "P00:03"
+          "AttachmentPoint": "T01:60"
         },
         "B": {
-          "ID": "e97eba5c-1d74-4a58-9a58-f62731103e29",
+          "ID": "d2fabc96-9146-442a-96dc-8702fd14e234",
+          "AttachmentPoint": "-"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:02"
+        },
+        "B": {
+          "ID": "12f398ff-51c7-47d3-95be-0fa9f95a14fe",
           "AttachmentPoint": "1"
         }
       },
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "T00:22"
+          "AttachmentPoint": "P00:02"
         },
         "B": {
-          "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42",
+          "ID": "12f398ff-51c7-47d3-95be-0fa9f95a14fe",
           "AttachmentPoint": "0"
         }
       },
       {
         "A": {
           "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
-          "AttachmentPoint": "P01:22"
+          "AttachmentPoint": "P01:02"
         },
         "B": {
-          "ID": "44f2b6b6-d2eb-4c01-a5e1-a8dc0f95bc42",
+          "ID": "010ce4d0-b932-4ab1-9471-44b25d49cb59",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P03:02"
+        },
+        "B": {
+          "ID": "010ce4d0-b932-4ab1-9471-44b25d49cb59",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P00:03"
+        },
+        "B": {
+          "ID": "2301486a-b5bd-46f3-b43c-a311c84044a1",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:03"
+        },
+        "B": {
+          "ID": "2301486a-b5bd-46f3-b43c-a311c84044a1",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P01:03"
+        },
+        "B": {
+          "ID": "4a601338-5842-493b-a2b4-79c94982e67e",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P03:03"
+        },
+        "B": {
+          "ID": "4a601338-5842-493b-a2b4-79c94982e67e",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P00:02"
+        },
+        "B": {
+          "ID": "87f76438-fd2c-4263-b415-b8c9a524d4f3",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P02:02"
+        },
+        "B": {
+          "ID": "87f76438-fd2c-4263-b415-b8c9a524d4f3",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P01:02"
+        },
+        "B": {
+          "ID": "79d77a44-85d8-4a92-9d0c-6c6cde1c16a5",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P03:02"
+        },
+        "B": {
+          "ID": "79d77a44-85d8-4a92-9d0c-6c6cde1c16a5",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P00:41"
+        },
+        "B": {
+          "ID": "8923c658-71e5-4970-8142-0457ec8bdba0",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "T00:41"
+        },
+        "B": {
+          "ID": "8923c658-71e5-4970-8142-0457ec8bdba0",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:16"
+        },
+        "B": {
+          "ID": "636d49ad-fc91-43b2-80c1-8933f39a7971",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T09:16"
+        },
+        "B": {
+          "ID": "636d49ad-fc91-43b2-80c1-8933f39a7971",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P01:28"
+        },
+        "B": {
+          "ID": "5b6f30b4-fb37-4141-a649-6763848b19df",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:28"
+        },
+        "B": {
+          "ID": "5b6f30b4-fb37-4141-a649-6763848b19df",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "T00:04"
+        },
+        "B": {
+          "ID": "15e0679d-a4b8-4692-afc8-566e2f22f3d8",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P00:04"
+        },
+        "B": {
+          "ID": "15e0679d-a4b8-4692-afc8-566e2f22f3d8",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "T09:12"
+        },
+        "B": {
+          "ID": "a55d7052-d9ed-4c06-9190-193862e48256",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "P03:12"
+        },
+        "B": {
+          "ID": "a55d7052-d9ed-4c06-9190-193862e48256",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:12"
+        },
+        "B": {
+          "ID": "d723d3f9-3ee5-49c7-b2e9-e261e01c2e9e",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "a1107092-e2b4-43c8-a83c-971e8816bfd9",
+          "AttachmentPoint": "T00:12"
+        },
+        "B": {
+          "ID": "d723d3f9-3ee5-49c7-b2e9-e261e01c2e9e",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T09:10"
+        },
+        "B": {
+          "ID": "b7dd5618-a410-4d5f-9e76-c83490501f77",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:10"
+        },
+        "B": {
+          "ID": "b7dd5618-a410-4d5f-9e76-c83490501f77",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T09:12"
+        },
+        "B": {
+          "ID": "d6cf6a8e-60a2-47e0-9f60-ebc31d523b65",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:11"
+        },
+        "B": {
+          "ID": "d6cf6a8e-60a2-47e0-9f60-ebc31d523b65",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T09:14"
+        },
+        "B": {
+          "ID": "ab9bb920-30fc-402c-8604-850ea16507eb",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P02:14"
+        },
+        "B": {
+          "ID": "ab9bb920-30fc-402c-8604-850ea16507eb",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:13"
+        },
+        "B": {
+          "ID": "2e62f032-4639-4c39-a307-b51846cc8866",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:14"
+        },
+        "B": {
+          "ID": "2e62f032-4639-4c39-a307-b51846cc8866",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:09"
+        },
+        "B": {
+          "ID": "b2a7e832-fa81-4b5b-90f5-5d26b391a246",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:09"
+        },
+        "B": {
+          "ID": "b2a7e832-fa81-4b5b-90f5-5d26b391a246",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:11"
+        },
+        "B": {
+          "ID": "55c35ebf-7da1-461f-a149-dae0f060a4dd",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:11"
+        },
+        "B": {
+          "ID": "55c35ebf-7da1-461f-a149-dae0f060a4dd",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:38"
+        },
+        "B": {
+          "ID": "5663ee89-a7ad-431b-8d34-aa14a4ab9d36",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T00:16"
+        },
+        "B": {
+          "ID": "5663ee89-a7ad-431b-8d34-aa14a4ab9d36",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P00:57"
+        },
+        "B": {
+          "ID": "83dfbd01-6e4d-440a-a8b2-ab109ed2fec9",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T03:57"
+        },
+        "B": {
+          "ID": "83dfbd01-6e4d-440a-a8b2-ab109ed2fec9",
+          "AttachmentPoint": "1"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "P01:59"
+        },
+        "B": {
+          "ID": "f7cf7eab-fda5-482d-8ae1-2b6321c99f96",
+          "AttachmentPoint": "0"
+        }
+      },
+      {
+        "A": {
+          "ID": "b3d64160-65ba-4956-9ac2-6d980a3061e7",
+          "AttachmentPoint": "T03:60"
+        },
+        "B": {
+          "ID": "f7cf7eab-fda5-482d-8ae1-2b6321c99f96",
           "AttachmentPoint": "1"
         }
       }
