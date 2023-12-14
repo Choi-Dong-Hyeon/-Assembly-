@@ -15,4 +15,4 @@ DoxBox폴더 안에 dosbox-x.conf 파일을 텍스트편집기로 연다
 맨아래 [autoexec] 아래에 MOUNT A "asm파일저장폴더 경로" MOUNT T "MASM611 폴더경로"
 
 
-실행방법 도스박스를 열고 ML /W3 TEST.ASM
+실행방법 도스박스를 열고 ML /W3 TEST.ASM 입력이 실행코드임
