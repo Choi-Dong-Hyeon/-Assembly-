@@ -1,0 +1,73 @@
+opcode destination, source 
+
+
+CMP ( Compare )
+
+
+add ( )
+destination에 source를 더한다
+
+
+adc ( AddCarry )
+add연산에 carray플래그값을 같이 더한다
+
+
+sbb (  )
+sub연산에 carray플래그값을 같이 뺀다
+
+
+push
+스택에 데이터를 넣는다 esp주소도 따라서 새로들어온 데이터주소를 가르킨다
+
+pop
+esp의 주소에 있는 값을 꺼내서 destination에 저장
+
+
+esp ( StackPoint )
+항상 스택의 맨위에있는 데이터의 주소를 가르킨다
+
+
+ebp ( BasePoint )
+
+
+
+mul ( multiplication ) 부호가없는 정수에 대한 곱셈 D:A
+a레지스터하고 곱하기연산을 한다 a레지스터는 Low가 되고 d레지스터가 High가 된다
+결과값이 8바이트면 edx:eax
+4바이트면 dx:ax
+2바이트면 ax
+1바이트면 al
+
+
+div ( Division ) 부호가없는 정수에 대한 나눗셈 D:A
+a레지스터하고 나눗셈연산을 한다 a레지스터는 몫  나머지는 d레지스터
+나머지는 EDX 몫은 EAX
+
+
+imul ( multiplication ) 부호가있는 정수에 대한 곱셈
+
+
+
+idiv ( Division ) 부호가있는 정수에 대한 나눗셈
+
+ 
+
+
+---------- Flag -------------------
+
+C ( Carray ) 받아올림
+연산결과가 비트수를 넘었을때 1
+cmp eax,1
+
+
+P ( Parity ) 동등성
+짝수 패리티 홀수 패리티 패리티비트 공간을 이용해서 1의갯수를 홀수,짝수를 유지한다
+32비트에서 Low바이트 8비트에 적용되어서 홀수가 되도록 유지한다
+
+
+A ( Auxiliary ) 이진화십진법
+보조캐리플래그 최하위 4비트에서 5번째 비트로 받아올림이 생겼을때 플래그가 켜진다
+
+Z ( Zero )
+
+
