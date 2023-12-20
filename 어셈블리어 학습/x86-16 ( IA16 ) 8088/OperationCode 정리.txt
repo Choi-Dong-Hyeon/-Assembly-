@@ -1,0 +1,22 @@
+opcode destination, source 
+
+
+
+
+
+CMP ( Compare )
+
+
+
+
+
+Flag
+
+C ( Carray )
+연산결과가 비트수를 넘었을때 1
+cmp eax,1
+
+
+P
+A
+Z
